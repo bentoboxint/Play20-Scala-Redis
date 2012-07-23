@@ -8,9 +8,11 @@ a scala play module based on Scala-Redis (https://github.com/debasishg/scala-red
 To install:
 
 Add the following to your dependencies:
+
     "com.redis" % "play20-scala-redis_2.9.1" % "0.1"
 
 Add the following to your resolvers:
+
     resolvers += Resolver.url("bentoboxint play repository", url("http://bentoboxint.github.com/releases/"))(Resolver.ivyStylePatterns)
 
 
