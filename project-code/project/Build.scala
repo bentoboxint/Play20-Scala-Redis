@@ -5,7 +5,7 @@ import PlayProject._
 object ApplicationBuild extends Build {
 
     val appName         = "play20-scala-redis"
-    val appVersion      = "0.1"
+    val appVersion      = "0.2"
 
     val appDependencies = Seq(
         // Add your project dependencies here,
