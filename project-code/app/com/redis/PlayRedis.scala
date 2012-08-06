@@ -4,7 +4,7 @@ import play.api.Play
 import com.redis._
 
 object PlayRedis {
-    lazy val RedisCache:RedisClient = new RedisClient(
+    def RedisCache:RedisClient = new RedisClient(
         Play.current.configuration.getString("redis.host") match {
             case Some(x) => x
             case None => "localhost"
